@@ -4,8 +4,8 @@ import 'package:flutter_web_dashboard/helpers/reponsiveness.dart';
 import 'package:flutter_web_dashboard/widgets/custom_text.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
-class setting extends StatelessWidget {
-  const setting({Key? key}) : super(key: key);
+class Settings extends StatelessWidget {
+  const Settings({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -5,14 +5,14 @@ import 'package:flutter_web_dashboard/pages/reports/widgets/reports_design.dart'
 import 'package:flutter_web_dashboard/widgets/custom_text.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
-class reports extends StatefulWidget {
-  const reports({Key? key}) : super(key: key);
+class Reports extends StatefulWidget {
+  const Reports({Key? key}) : super(key: key);
 
   @override
-  State<reports> createState() => _reportsState();
+  State<Reports> createState() => _ReportsState();
 }
 
-class _reportsState extends State<reports> {
+class _ReportsState extends State<Reports> {
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -4,14 +4,14 @@ import 'package:flutter_web_dashboard/helpers/reponsiveness.dart';
 import 'package:flutter_web_dashboard/widgets/custom_text.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
-class reservations extends StatefulWidget {
-  const reservations({Key? key}) : super(key: key);
+class Reservations extends StatefulWidget {
+  const Reservations({Key? key}) : super(key: key);
 
   @override
-  State<reservations> createState() => _reservationsState();
+  State<Reservations> createState() => _ReservationsState();
 }
 
-class _reservationsState extends State<reservations> {
+class _ReservationsState extends State<Reservations> {
   @override
   Widget build(BuildContext context) {
     return Container(

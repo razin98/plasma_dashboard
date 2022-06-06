@@ -118,14 +118,14 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Row(
-                        children: [
-                          Checkbox(value: true, onChanged: (value) {}),
-                          CustomText(
-                            text: "Remeber Me",
-                          ),
-                        ],
-                      ),
+                      // Row(
+                      //   children: [
+                      //     Checkbox(value: true, onChanged: (value) {}),
+                      //     CustomText(
+                      //       text: "Remember Me",
+                      //     ),
+                      //   ],
+                      // ),
                       CustomText(text: "Forgot password?", color: active)
                     ],
                   ),

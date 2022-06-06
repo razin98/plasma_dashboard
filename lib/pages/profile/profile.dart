@@ -6,8 +6,8 @@ import 'package:flutter_web_dashboard/pages/profile/widgets/profile_design.dart'
 import 'package:flutter_web_dashboard/widgets/custom_text.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
-class profile extends StatelessWidget {
-  const profile({Key? key}) : super(key: key);
+class Profile extends StatelessWidget {
+  const Profile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

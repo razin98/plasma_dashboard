@@ -12,15 +12,15 @@ Route<dynamic> generateRoute(RouteSettings settings){
     case overviewPageRoute:
       return _getPageRoute(OverviewPage());
     case profilePageRoute:
-      return _getPageRoute(profile());
+      return _getPageRoute(Profile());
     case donorsPageRoute:
       return _getPageRoute(Donors());
     case reservationsPageRoute:
-      return _getPageRoute(reservations());
+      return _getPageRoute(Reservations());
     case reportsPageRoute:
-      return _getPageRoute(reports());
+      return _getPageRoute(Reports());
     case settingsPageRoute:
-      return _getPageRoute(setting());
+      return _getPageRoute(Settings());
     
     default:
       return _getPageRoute(OverviewPage());
